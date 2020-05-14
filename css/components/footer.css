@@ -1,0 +1,16 @@
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  background-color: #FF8882;
+}
+
+#alumni-btn {
+  margin-bottom: -11px;
+  width: 35px;
+  content: url("https://d26jy9fbi4q9wx.cloudfront.net/assets/favicon-78bfa184892a74357d550c1a209f52e7072af7e9e84ad1b000785f19bc1f8f22.png");
+}

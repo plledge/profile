@@ -1,0 +1,71 @@
+/* --- Imports --- */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Raleway:wght@300&display=swap');
+@import url('components/avatar.css');
+@import url('components/dashboard.css');
+@import url('components/footer.css');
+
+body {
+  margin: 0;
+  background-image: url('https://media.giphy.com/media/kg19fN5BXbZGIDznzG/source.gif');
+  background-size: cover;
+}
+
+/* --- Fonts --- */
+.card-info{
+  text-align: center;
+}
+
+.card-titles {
+  position: absolute
+  justify-content: center;
+}
+
+.card-info h1{
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 400;
+  font-size: 52.4pt;
+  color: #FF8882;
+}
+
+.card-info h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 17pt;
+  font-weight: bold;
+} 
+
+.card-specs{
+   margin: 8px;
+  font-size: 19px;
+  text-align: center;
+}
+
+
+/* --- Utilities --- */
+.container{
+  width: 21cm;
+  padding: 0.5cm;
+  margin: 1cm auto;
+  min-height: 29.7cm;
+  position: relative;
+  background-color: #F8F8EF;
+  box-shadow: 2px 2px 2px rgba(248, 248, 239, 0.3);
+}
+
+a {
+  text-decoration: none;
+  color: #EFDAC2;
+}
+
+a:visited {
+  color: #03674F;
+}
+
+/* --- List inline --- */
+.footer-inline li{
+  list-style: none;
+  display: inline-block;
+  padding-inline-end: 75px;
+  margin: 0;
+  font-size: 14pt;
+}

@@ -1,0 +1,27 @@
+
+.dashboard {
+  padding: 10px;
+  margin: 5px;
+}
+
+.dashboard:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dashboard-left {
+  float: left;
+  width: 49%;
+  max-height: 15cm;
+  min-height: 13cm;
+  text-align: justify;
+}
+
+.dashboard-right {
+  float: right;
+  width: 49%;
+  max-height: 15cm;
+  min-height: 13cm;
+  text-align: justify;
+}
